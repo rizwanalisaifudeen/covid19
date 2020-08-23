@@ -1,0 +1,136 @@
+body {
+    font-size: 0.75rem;
+}
+
+td>div {
+    border-bottom: 0.05rem solid white;
+    text-align: center;
+    width: 100%;
+}
+
+.table-class {
+    background-color: #429bb8;
+    flex: 1;
+}
+
+.table-change {
+    background-color: orange;
+    /* flex: 1; */
+}
+
+thead tr {
+    text-align: center;
+}
+
+.my-nav {
+    margin-bottom: 3rem;
+}
+
+.my-btn {
+    background-color: #429bb8;
+    border-color: #429bb8;
+}
+
+#search-country {
+    width: 30%;
+}
+
+.logo {
+    width: 20%;
+    padding-right: 0.5rem;
+}
+
+.my-logo {
+    color: red;
+}
+
+span {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.wraper {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    flex-flow: column;
+    width: 500px;
+    flex: 1;
+}
+
+.country-info {
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+.content {
+    display: flex;
+    padding: 0 2rem;
+    flex-flow: row-reverse;
+}
+
+#graph {
+    height: 400px;
+    width: 100%;
+}
+
+.content>.wrapper {
+    width: 100%;
+    min-width: 500px;
+    display: flex;
+}
+
+.wraper {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#show1 span {
+    color: green;
+}
+
+span {
+    color: red;
+}
+
+.some-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #429bb8;
+    color: white;
+    border-radius: 10px;
+}
+
+.some-content div {
+    border-bottom: 1px solid white;
+}
+
+.hide {
+    display: none;
+}
+
+.social-networking {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networking a i,
+footer {
+    color: white;
+    padding: 5px;
+}
+
+
+/* .spin-img {
+    width: 10rem;
+} */
+
+
+/* .spinner {
+    display: flex;
+    justify-content: center;
+} */
